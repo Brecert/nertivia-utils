@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "allowJs": true,
+    "checkJs": true,
+    "lib": ["DOM", "ES2020"],
+    "moduleResolution": "node",
+    "strict": false,
+    "importsNotUsedAsValues": "error",
+    "noEmit": true
+  }
+}

@@ -1,0 +1,64 @@
+:root {
+  --primary-color: #263238;
+  --secondary-color: #fcfcff;
+  --faded-color: #1d262a;
+}
+
+* {
+  font-family: monospace;
+}
+
+html {
+  background: #222831;
+  color: #fcfcfc;
+
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: calc(20vh - 100px);
+  width: calc(50vw + 100px);
+  gap: 1rem;
+}
+
+textarea {
+  color: #fff;
+  background: #1f2329;
+  min-height: 20px;
+  font-size: 15px;
+  padding: 10px;
+  resize: none;
+  border: none;
+
+  width: 100%;
+}
+
+output {
+  word-break: break-word;
+}
+
+ul {
+  padding-inline-start: 1rem;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+}
+
+.option output {
+  margin-right: 1rem;
+}
+
+.option label {
+  flex: 1;
+}
+
+.preview {
+  white-space: pre;
+  white-space: pre-wrap;
+}
